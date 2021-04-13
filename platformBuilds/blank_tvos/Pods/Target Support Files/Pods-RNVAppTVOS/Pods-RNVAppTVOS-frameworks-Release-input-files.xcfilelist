@@ -1,0 +1,24 @@
+${PODS_ROOT}/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DoubleConversion-tvOS/DoubleConversion.framework
+${BUILT_PRODUCTS_DIR}/FBReactNativeSpec-tvOS/FBReactNativeSpec.framework
+${BUILT_PRODUCTS_DIR}/Folly-tvOS/folly.framework
+${BUILT_PRODUCTS_DIR}/RCTTypeSafety-tvOS/RCTTypeSafety.framework
+${BUILT_PRODUCTS_DIR}/React-Core-tvOS/React.framework
+${BUILT_PRODUCTS_DIR}/React-CoreModules-tvOS/CoreModules.framework
+${BUILT_PRODUCTS_DIR}/React-RCTAnimation-tvOS/RCTAnimation.framework
+${BUILT_PRODUCTS_DIR}/React-RCTBlob-tvOS/RCTBlob.framework
+${BUILT_PRODUCTS_DIR}/React-RCTImage-tvOS/RCTImage.framework
+${BUILT_PRODUCTS_DIR}/React-RCTLinking-tvOS/RCTLinking.framework
+${BUILT_PRODUCTS_DIR}/React-RCTNetwork-tvOS/RCTNetwork.framework
+${BUILT_PRODUCTS_DIR}/React-RCTSettings-tvOS/RCTSettings.framework
+${BUILT_PRODUCTS_DIR}/React-RCTText-tvOS/RCTText.framework
+${BUILT_PRODUCTS_DIR}/React-cxxreact-tvOS/cxxreact.framework
+${BUILT_PRODUCTS_DIR}/React-jsi-tvOS/jsi.framework
+${BUILT_PRODUCTS_DIR}/React-jsiexecutor-tvOS/jsireact.framework
+${BUILT_PRODUCTS_DIR}/React-jsinspector-tvOS/jsinspector.framework
+${BUILT_PRODUCTS_DIR}/ReactCommon-tvOS/ReactCommon.framework
+${BUILT_PRODUCTS_DIR}/Yoga-tvOS/yoga.framework
+${BUILT_PRODUCTS_DIR}/glog-tvOS/glog.framework
+${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework
+${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework
+${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework

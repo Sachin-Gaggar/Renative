@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "cfda8898687c98613780a6fe74a63338"
+build_time: [1618318636, 633732000]
+inputs:
+  "/Users/ttn/Desktop/BasicReanative/platformBuilds/blank_tvos/RNVAppTVOS/AppDelegate.swift": [1618318064, 826199874]

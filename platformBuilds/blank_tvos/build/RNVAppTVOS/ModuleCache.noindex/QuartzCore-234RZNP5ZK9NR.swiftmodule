@@ -1,0 +1,44 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvsimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule'
+dependencies:
+  - mtime:           1586293279000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvsimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule'
+    size:            16384
+  - mtime:           1582406577000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1583480780000000000
+    path:            'usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1582411910000000000
+    path:            'System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes'
+    size:            29817
+    sdk_relative:    true
+  - mtime:           1582414650000000000
+    path:            'System/Library/Frameworks/Security.framework/Headers/Security.apinotes'
+    size:            162
+    sdk_relative:    true
+  - mtime:           1582417297000000000
+    path:            'System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes'
+    size:            80492
+    sdk_relative:    true
+  - mtime:           1582421206000000000
+    path:            'System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes'
+    size:            1192
+    sdk_relative:    true
+  - mtime:           1582422403000000000
+    path:            'System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes'
+    size:            48641
+    sdk_relative:    true
+  - mtime:           1582416134000000000
+    path:            'System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes'
+    size:            7428
+    sdk_relative:    true
+  - mtime:           1582953053000000000
+    path:            'usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface'
+    size:            972
+    sdk_relative:    true
+version:         1
+...

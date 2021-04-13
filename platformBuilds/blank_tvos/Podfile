@@ -1,0 +1,109 @@
+
+platform :tvos, '10.0'
+use_frameworks!
+
+
+# ReNative: To allow dynamic plugins via flavours autolinking has to be disabled
+# require_relative '../../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+target 'RNVApp' do
+  # Pods for RNVApp
+  platform :ios, '9.0'
+
+  pod 'FBLazyVector', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/TypeSafety"
+  pod 'React', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+  pod 'React-Core', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+  pod 'React-CoreModules', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+  # pod 'React-RCTActionSheet', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Text'
+  # pod 'React-RCTVibration', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+
+  pod 'React-cxxreact', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/jscallinvoker', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon"
+  pod 'ReactCommon/turbomodule/core', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon"
+  pod 'Yoga', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', :podspec => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+end
+
+target 'RNVAppTVOS' do
+
+
+  pod 'FBLazyVector', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/TypeSafety"
+  pod 'React', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+  pod 'React-Core', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+  pod 'React-CoreModules', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+  # pod 'React-RCTActionSheet', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Text'
+  # pod 'React-RCTVibration', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/'
+
+  pod 'React-cxxreact', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/jscallinvoker', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon"
+  pod 'ReactCommon/turbomodule/core', :path => "/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon"
+  pod 'Yoga', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', :podspec => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+   pod 'RNGestureHandler', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native-gesture-handler'
+  pod 'RNReanimated', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native-reanimated'
+  pod 'RNVectorIcons', :path => '/Users/ttn/Desktop/BasicReanative/node_modules/react-native-vector-icons'
+
+
+  # ReNative: To allow dynamic plugins via flavours autolinking has to be disabled
+  # use_native_modules!('../..')
+end
+
+pre_install do |installer|
+  # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+  Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+end
+
+static_frameworks = []
+
+pre_install do |installer|
+  installer.pod_targets.each do |pod|
+    if static_frameworks.include?(pod.name)
+      def pod.static_framework?;
+        true
+      end
+      def pod.build_type;
+        Pod::BuildType.static_library
+      end
+    end
+  end
+end
+
+

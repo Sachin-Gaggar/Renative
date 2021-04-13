@@ -1,0 +1,21 @@
+${PODS_ROOT}/Target Support Files/Pods-RNVApp/Pods-RNVApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DoubleConversion-iOS/DoubleConversion.framework
+${BUILT_PRODUCTS_DIR}/FBReactNativeSpec-iOS/FBReactNativeSpec.framework
+${BUILT_PRODUCTS_DIR}/Folly-iOS/folly.framework
+${BUILT_PRODUCTS_DIR}/RCTTypeSafety-iOS/RCTTypeSafety.framework
+${BUILT_PRODUCTS_DIR}/React-Core-iOS/React.framework
+${BUILT_PRODUCTS_DIR}/React-CoreModules-iOS/CoreModules.framework
+${BUILT_PRODUCTS_DIR}/React-RCTAnimation-iOS/RCTAnimation.framework
+${BUILT_PRODUCTS_DIR}/React-RCTBlob-iOS/RCTBlob.framework
+${BUILT_PRODUCTS_DIR}/React-RCTImage-iOS/RCTImage.framework
+${BUILT_PRODUCTS_DIR}/React-RCTLinking-iOS/RCTLinking.framework
+${BUILT_PRODUCTS_DIR}/React-RCTNetwork-iOS/RCTNetwork.framework
+${BUILT_PRODUCTS_DIR}/React-RCTSettings-iOS/RCTSettings.framework
+${BUILT_PRODUCTS_DIR}/React-RCTText-iOS/RCTText.framework
+${BUILT_PRODUCTS_DIR}/React-cxxreact-iOS/cxxreact.framework
+${BUILT_PRODUCTS_DIR}/React-jsi-iOS/jsi.framework
+${BUILT_PRODUCTS_DIR}/React-jsiexecutor-iOS/jsireact.framework
+${BUILT_PRODUCTS_DIR}/React-jsinspector-iOS/jsinspector.framework
+${BUILT_PRODUCTS_DIR}/ReactCommon-iOS/ReactCommon.framework
+${BUILT_PRODUCTS_DIR}/Yoga-iOS/yoga.framework
+${BUILT_PRODUCTS_DIR}/glog-iOS/glog.framework

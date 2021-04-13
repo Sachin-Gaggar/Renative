@@ -1,0 +1,6 @@
+framework module Pods_RNVAppTVOS {
+  umbrella header "Pods-RNVAppTVOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
