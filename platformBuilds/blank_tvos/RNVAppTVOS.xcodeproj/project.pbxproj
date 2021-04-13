@@ -13,7 +13,6 @@
 		20477AD924B2535A006FA63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20477AD824B2535A006FA63A /* LaunchScreen.storyboard */; };
 		20A246F3218ACD9E00F58B90 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A246F2218ACD9E00F58B90 /* main.jsbundle */; };
 		20A246F5218ACDA800F58B90 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 20A246F4218ACDA800F58B90 /* assets */; };
-		891337D82F59A66FB37F53F5 /* Pods_RNVApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FEA17DF43BE520F5512E68 /* Pods_RNVApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D8883DE252DCCD8E35A8B3 /* Pods-RNVApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNVApp/Pods-RNVApp.release.xcconfig"; sourceTree = "<group>"; };
+		00D8883DE252DCCD8E35A8B3 /* Pods-RNVApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNVAppTVOS/Pods-RNVApp.release.xcconfig"; sourceTree = "<group>"; };
 		20200EB921143502009FB5CA /* RNVAppTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNVAppTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20200EBB21143502009FB5CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20200EC221143504009FB5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,12 +43,11 @@
 		20A246F2218ACD9E00F58B90 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
 		20A246F4218ACDA800F58B90 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		20A744D2234D929500658109 /* RNVAppTVOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNVAppTVOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		27FEA17DF43BE520F5512E68 /* Pods_RNVApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNVApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C497B92FB79B5C5499FD9E /* Pods-RNVAppTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVAppTVOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS.release.xcconfig"; sourceTree = "<group>"; };
 		39DEC93D278A25BEC6C802FC /* Pods_RNVAppTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNVAppTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B701907AD48845898B0F088A /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../../node_modules/react-native-locale-detector/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 		E9BD3C6C20A6CDE458EE95FB /* Pods-RNVAppTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVAppTVOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS.debug.xcconfig"; sourceTree = "<group>"; };
-		FF8BDA7EF1C63EE79868B6A4 /* Pods-RNVApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNVApp/Pods-RNVApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8BDA7EF1C63EE79868B6A4 /* Pods-RNVApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNVApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNVAppTVOS/Pods-RNVApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891337D82F59A66FB37F53F5 /* Pods_RNVApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				39DEC93D278A25BEC6C802FC /* Pods_RNVAppTVOS.framework */,
-				27FEA17DF43BE520F5512E68 /* Pods_RNVApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,11 +173,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20317C76234D8E9D008AFF04 /* Build configuration list for PBXNativeTarget "RNVApp" */;
 			buildPhases = (
-				99DAB4276C11E7B53F23FE43 /* [CP] Check Pods Manifest.lock */,
 				20317C61234D8E9D008AFF04 /* Sources */,
 				20317C62234D8E9D008AFF04 /* Frameworks */,
 				20317C63234D8E9D008AFF04 /* Resources */,
-				E0E4C85C2857F0B0C9D79F87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,38 +275,25 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99DAB4276C11E7B53F23FE43 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNVApp-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNVAppTVOS/Pods-RNVAppTVOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BDBEC1166F7B4AC060313371 /* [CP] Check Pods Manifest.lock */ = {
@@ -331,23 +312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0E4C85C2857F0B0C9D79F87 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNVApp/Pods-RNVApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNVApp/Pods-RNVApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNVApp/Pods-RNVApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -434,7 +398,6 @@
 		};
 		20317C74234D8E9D008AFF04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF8BDA7EF1C63EE79868B6A4 /* Pods-RNVApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,7 +423,6 @@
 		};
 		20317C75234D8E9D008AFF04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00D8883DE252DCCD8E35A8B3 /* Pods-RNVApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

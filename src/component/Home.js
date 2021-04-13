@@ -29,9 +29,6 @@ class Home extends Component {
             styles.btnStyle,
             isButton1Focused ? styles.activeBtn : styles.inactiveBtn,
           ]}
-          ref={(ref) => {
-            this.actionRef["button1"] = ref;
-          }}
           activeOpacity={1.0}
           onFocus={() => {
             this.setState({
@@ -59,9 +56,6 @@ class Home extends Component {
             styles.btnStyle,
             isButton2Focused ? styles.activeBtn : styles.inactiveBtn,
           ]}
-          ref={(ref) => {
-            this.actionRef["button2"] = ref;
-          }}
           activeOpacity={1.0}
           onFocus={() => {
             this.setState({
@@ -89,9 +83,6 @@ class Home extends Component {
             styles.btnStyle,
             isButton3Focused ? styles.activeBtn : styles.inactiveBtn,
           ]}
-          ref={(ref) => {
-            this.actionRef["button3"] = ref;
-          }}
           activeOpacity={1.0}
           onFocus={() => {
             this.setState({
@@ -119,9 +110,6 @@ class Home extends Component {
             styles.btnStyle,
             isButton4Focused ? styles.activeBtn : styles.inactiveBtn,
           ]}
-          ref={(ref) => {
-            this.actionRef["button4"] = ref;
-          }}
           activeOpacity={1.0}
           onFocus={() => {
             this.setState({
